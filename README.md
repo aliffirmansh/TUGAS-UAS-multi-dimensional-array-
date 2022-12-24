@@ -13,8 +13,8 @@ Langkah awalnya yaitu user menginputkan berapa banyak baris pada array, lalu inp
 Program kedua, program ini dibuat menggunakan konsep Multi Dimmensional Array (MDA) yang mana program pertama memiliki fungsi untuk melakukan pencarian nilai deret yang tidak habis dibagi dengan 3,5,7
 langkah awalnya yaitu user menginputkan banyak baris deret pada kolom array, lalu input nilai pada array, kemudian data yang telah diinput akan ditampilkan sesusai dengan konsep deret yang tidak habis dibagi 3,5,7.  
 
-		## Source Code
-		- Source Code Soal No.1
+## Source Code
+Source Code Soal No.1
 
 		#include <iostream>
 		#include <conio.h>
@@ -66,7 +66,7 @@ langkah awalnya yaitu user menginputkan banyak baris deret pada kolom array, lal
 		  }
 			getch();
 		}
-		- Source Code Soal No.2
+Source Code Soal No.2
 
 		#include <iostream>
 		#include <conio.h>
