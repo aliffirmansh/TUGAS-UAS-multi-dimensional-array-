@@ -68,55 +68,38 @@ Source Code Soal No.1
 		}
 Source Code Soal No.2
 
-		#include <iostream>
-		#include <conio.h>
-		using namespace std;
+			#include <iostream>
+			#include <conio.h>
+			using namespace std;
 
-		int main(){
-		  int i, j, b, k, matriks[10][10], transpose[10][10];
+			int main() {
+			int baris, kolom, i, j, res;
 
-		  cout << "NAMA ALIF FIRMANSYAH PUTRA \n" << "NIM: 1227050033 \n";
-		  cout << "MENGUBAH KOLOM DAN BARIS PADA MATRIKS \n";
-		  cout << "==================================================\n";
+			cout << "NAMA ALIF FIRMANSYAH PUTRA \n" << "NIM: 1227050033 \n";
+			cout << "MENCARI DERET YANG TIDAK HABIS DIBAGI DENGAN 3, 5, 7 \n";
+			cout << "==================================================\n";
 
-		  cout << "Masukkan jumlah baris matriks: ";
-		  cin >> b;
-		  cout << "Masukkan jumlah kolom matriks: ";
-		  cin >> k;
-		  cout << endl;
+			cout << endl << "Masukkan baris: "; cin >> baris;
+			cout << endl << "Masukkan kolom: "; cin >> kolom;
 
-		  cout << "Masukkan elemen matriks \n";
-		  for (i = 0; i < b; i++) {
-		    for (j = 0; j < k; j++) {
-		      cout << "Nilai Baris " << i+1 << " Kolom " << j+1 << " = " ;
-			  cin  >> matriks[i][j];
-		    }
-		  }
-		  cout << "\n";
+			int num[baris][kolom];
 
-		  cout << "Matriks Awal : \n";
-		  for (i = 0; i < b; i++){
-		    for (j = 0; j < k; j++){
-		      cout << matriks[i][j] << "\t";
-		    }
-		    cout << endl;
-		  }
+			// input
+			for (i = 1; i <= baris; i++) {
+				for (j = 1; j <= kolom; j++) {
+					cout << "Num[" << i << "." << j << "]: ";
+					cin >> num[i][j];
+				}
+			}
 
-
-		  for (i = 0; i < b; i++){
-		    for (j = 0; j < k; j++){
-		      transpose[j][i] = matriks[i][j];
-		    }
-		  }
-
-		  cout << "Hasil Transpose Matriks: \n";
-		  for (i = 0; i < k; i++){
-		    for (j = 0; j < b; j++){
-		      cout << transpose[i][j] << "\t";
-		    }
-		    cout << endl;
-		  }
-			getch();
+			// proses
+			for (i = 1; i <= baris; i++) {
+				for (j = 1; j <= kolom; j++) {
+					if (num[i][j] % 3 != 0 && num[i][j] % 5 != 0 && num[i][j] % 7 != 0) {
+						cout << "Bilangan yang tidak habis dibagi 3, 5, 7: " << num[i][j] << endl;
+					} 
+				}
+			}
 		}
 ## Output
 - Soal No.1
