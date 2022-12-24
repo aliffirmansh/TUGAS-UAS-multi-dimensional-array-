@@ -13,111 +13,111 @@ Langkah awalnya yaitu user menginputkan berapa banyak baris pada array, lalu inp
 Program kedua, program ini dibuat menggunakan konsep Multi Dimmensional Array (MDA) yang mana program pertama memiliki fungsi untuk melakukan pencarian nilai deret yang tidak habis dibagi dengan 3,5,7
 langkah awalnya yaitu user menginputkan banyak baris deret pada kolom array, lalu input nilai pada array, kemudian data yang telah diinput akan ditampilkan sesusai dengan konsep deret yang tidak habis dibagi 3,5,7.  
 
-## Source Code
-- Source Code Soal No.1
+		## Source Code
+		- Source Code Soal No.1
 
-#include <iostream>
-#include <conio.h>
-using namespace std;
+		#include <iostream>
+		#include <conio.h>
+		using namespace std;
 
-int main(){
-  int i, j, b, k, matriks[10][10], transpose[10][10];
-  
-  cout << "NAMA ALIF FIRMANSYAH PUTRA \n" << "NIM: 1227050033 \n";
-  cout << "MENGUBAH KOLOM DAN BARIS PADA MATRIKS \n";
-  cout << "==================================================\n";
+		int main(){
+		  int i, j, b, k, matriks[10][10], transpose[10][10];
 
-  cout << "Masukkan jumlah baris matriks: ";
-  cin >> b;
-  cout << "Masukkan jumlah kolom matriks: ";
-  cin >> k;
-  cout << endl;
+		  cout << "NAMA ALIF FIRMANSYAH PUTRA \n" << "NIM: 1227050033 \n";
+		  cout << "MENGUBAH KOLOM DAN BARIS PADA MATRIKS \n";
+		  cout << "==================================================\n";
 
-  cout << "Masukkan elemen matriks \n";
-  for (i = 0; i < b; i++) {
-    for (j = 0; j < k; j++) {
-      cout << "Nilai Baris " << i+1 << " Kolom " << j+1 << " = " ;
-	  cin  >> matriks[i][j];
-    }
-  }
-  cout << "\n";
+		  cout << "Masukkan jumlah baris matriks: ";
+		  cin >> b;
+		  cout << "Masukkan jumlah kolom matriks: ";
+		  cin >> k;
+		  cout << endl;
 
-  cout << "Matriks Awal : \n";
-  for (i = 0; i < b; i++){
-    for (j = 0; j < k; j++){
-      cout << matriks[i][j] << "\t";
-    }
-    cout << endl;
-  }
-  
-  
-  for (i = 0; i < b; i++){
-    for (j = 0; j < k; j++){
-      transpose[j][i] = matriks[i][j];
-    }
-  }
+		  cout << "Masukkan elemen matriks \n";
+		  for (i = 0; i < b; i++) {
+		    for (j = 0; j < k; j++) {
+		      cout << "Nilai Baris " << i+1 << " Kolom " << j+1 << " = " ;
+			  cin  >> matriks[i][j];
+		    }
+		  }
+		  cout << "\n";
 
-  cout << "Hasil Transpose Matriks: \n";
-  for (i = 0; i < k; i++){
-    for (j = 0; j < b; j++){
-      cout << transpose[i][j] << "\t";
-    }
-    cout << endl;
-  }
-	getch();
-}
-- Source Code Soal No.2
+		  cout << "Matriks Awal : \n";
+		  for (i = 0; i < b; i++){
+		    for (j = 0; j < k; j++){
+		      cout << matriks[i][j] << "\t";
+		    }
+		    cout << endl;
+		  }
 
-#include <iostream>
-#include <conio.h>
-using namespace std;
 
-int main(){
-  int i, j, b, k, matriks[10][10], transpose[10][10];
-  
-  cout << "NAMA ALIF FIRMANSYAH PUTRA \n" << "NIM: 1227050033 \n";
-  cout << "MENGUBAH KOLOM DAN BARIS PADA MATRIKS \n";
-  cout << "==================================================\n";
+		  for (i = 0; i < b; i++){
+		    for (j = 0; j < k; j++){
+		      transpose[j][i] = matriks[i][j];
+		    }
+		  }
 
-  cout << "Masukkan jumlah baris matriks: ";
-  cin >> b;
-  cout << "Masukkan jumlah kolom matriks: ";
-  cin >> k;
-  cout << endl;
+		  cout << "Hasil Transpose Matriks: \n";
+		  for (i = 0; i < k; i++){
+		    for (j = 0; j < b; j++){
+		      cout << transpose[i][j] << "\t";
+		    }
+		    cout << endl;
+		  }
+			getch();
+		}
+		- Source Code Soal No.2
 
-  cout << "Masukkan elemen matriks \n";
-  for (i = 0; i < b; i++) {
-    for (j = 0; j < k; j++) {
-      cout << "Nilai Baris " << i+1 << " Kolom " << j+1 << " = " ;
-	  cin  >> matriks[i][j];
-    }
-  }
-  cout << "\n";
+		#include <iostream>
+		#include <conio.h>
+		using namespace std;
 
-  cout << "Matriks Awal : \n";
-  for (i = 0; i < b; i++){
-    for (j = 0; j < k; j++){
-      cout << matriks[i][j] << "\t";
-    }
-    cout << endl;
-  }
-  
-  
-  for (i = 0; i < b; i++){
-    for (j = 0; j < k; j++){
-      transpose[j][i] = matriks[i][j];
-    }
-  }
+		int main(){
+		  int i, j, b, k, matriks[10][10], transpose[10][10];
 
-  cout << "Hasil Transpose Matriks: \n";
-  for (i = 0; i < k; i++){
-    for (j = 0; j < b; j++){
-      cout << transpose[i][j] << "\t";
-    }
-    cout << endl;
-  }
-	getch();
-}
+		  cout << "NAMA ALIF FIRMANSYAH PUTRA \n" << "NIM: 1227050033 \n";
+		  cout << "MENGUBAH KOLOM DAN BARIS PADA MATRIKS \n";
+		  cout << "==================================================\n";
+
+		  cout << "Masukkan jumlah baris matriks: ";
+		  cin >> b;
+		  cout << "Masukkan jumlah kolom matriks: ";
+		  cin >> k;
+		  cout << endl;
+
+		  cout << "Masukkan elemen matriks \n";
+		  for (i = 0; i < b; i++) {
+		    for (j = 0; j < k; j++) {
+		      cout << "Nilai Baris " << i+1 << " Kolom " << j+1 << " = " ;
+			  cin  >> matriks[i][j];
+		    }
+		  }
+		  cout << "\n";
+
+		  cout << "Matriks Awal : \n";
+		  for (i = 0; i < b; i++){
+		    for (j = 0; j < k; j++){
+		      cout << matriks[i][j] << "\t";
+		    }
+		    cout << endl;
+		  }
+
+
+		  for (i = 0; i < b; i++){
+		    for (j = 0; j < k; j++){
+		      transpose[j][i] = matriks[i][j];
+		    }
+		  }
+
+		  cout << "Hasil Transpose Matriks: \n";
+		  for (i = 0; i < k; i++){
+		    for (j = 0; j < b; j++){
+		      cout << transpose[i][j] << "\t";
+		    }
+		    cout << endl;
+		  }
+			getch();
+		}
 ## Output
 - Soal No.1
  <img width="597" alt="![UAS 1 ALIF FIRMANSYAH](https://user-images.githubusercontent.com/121073257/209417393-4bc41b2f-adcc-4a4c-bc17-0f6de33064d6.png)">
