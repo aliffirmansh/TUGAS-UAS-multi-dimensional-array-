@@ -120,7 +120,7 @@ Source Code Soal No.2
 		}
 ## Output
 - Soal No.1
- <img width="597" alt="![UAS 1 ALIF FIRMANSYAH](https://user-images.githubusercontent.com/121073257/209417393-4bc41b2f-adcc-4a4c-bc17-0f6de33064d6.png)">
-
+ ![UAS 1 ALIF FIRMANSYAH](https://user-images.githubusercontent.com/121073257/209417643-bba9283f-5943-4073-b6d1-9f6f3e013c00.png)
+ 
 - Soal No.2 
  <img width="597" alt="![UAS 2 ALIF FIRMANSYAH](https://user-images.githubusercontent.com/121073257/209417407-24eeae6f-feda-474d-91c9-20289be32ac6.png)">
