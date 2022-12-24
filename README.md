@@ -123,4 +123,4 @@ Source Code Soal No.2
  ![UAS 1 ALIF FIRMANSYAH](https://user-images.githubusercontent.com/121073257/209417643-bba9283f-5943-4073-b6d1-9f6f3e013c00.png)
  
 - Soal No.2 
- <img width="597" alt="![UAS 2 ALIF FIRMANSYAH](https://user-images.githubusercontent.com/121073257/209417407-24eeae6f-feda-474d-91c9-20289be32ac6.png)">
+![UAS 2 ALIF FIRMANSYAH](https://user-images.githubusercontent.com/121073257/209417667-b60f2785-d1a4-4d81-a31c-a4dc336754b7.png)
